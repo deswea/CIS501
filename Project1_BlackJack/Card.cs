@@ -38,7 +38,7 @@ namespace Project1_BlackJack
                 return "XX";
             }
 
-            return 
+            return string.Format(this.Suit.ToString(), this.Rank);
         }
     }
 }
